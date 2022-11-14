@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  background: #cc66ff;
+}
+
+#content-area {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 300px);
+  padding: 25px;
+  gap: 25px;
+}
+
+#ColorPicker {
+	width: 200px;
+	height: 40px;
+}
+
+.note {
+  height: 200px;
+  box-sizing: border-box;
+  padding: 20px;
+  resize: none;
+  color: black;
+  font-size: 16px;
+}
+
+.new-note {
+  height: 200px;
+  border: none;
+  outline: none;
+  font-size: 50px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+
+.new-note:hover {
+  background: rgba(0, 0, 0, 0.2);
+}

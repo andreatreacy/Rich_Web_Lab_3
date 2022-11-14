@@ -1,0 +1,15 @@
+{
+    "manifest_version": 3,
+    "name": "destroyedSite",
+    "version": "1.0.0",
+    "content_scripts": [
+        {
+        "matches": ["<all_urls>"],
+        "js": ["Content.js"],
+		"exclude_matches": [
+			"https://media.tenor.com/Vyg73kR334sAAAAM/jurassic-park-ah.gif"
+		]
+        }
+    ] 
+    
+}
