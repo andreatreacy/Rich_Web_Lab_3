@@ -1,39 +1,44 @@
+
+
 body {
-  margin: 0;
-  background: #cc66ff;
+	background-color: #80ffff;
 }
-
-#content-area {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, 300px);
-  padding: 25px;
-  gap: 25px;
-}
-
-#ColorPicker {
-	width: 200px;
-	height: 40px;
-}
-
-.note {
-  height: 200px;
-  box-sizing: border-box;
-  padding: 20px;
-  resize: none;
-  color: black;
-  font-size: 16px;
-}
-
-.new-note {
-  height: 200px;
-  border: none;
-  outline: none;
+	
+input {
+  width: 80px;
+  height: 100px;
   font-size: 50px;
-  cursor: pointer;
-  transition: background 0.2s;
+  text-align: center;
+}
+
+button {
+  width: 90px;
+  height: 60px;
+  text-align: center;
+}
+
+#error {
+	font-size: 20px;
+	color: red;
+	display: none;
+	font-weight: bold;
+	text-align: center;
+}
+
+#countdownSection, #timerSection {
+	text-align: center;
 }
 
 
-.new-note:hover {
-  background: rgba(0, 0, 0, 0.2);
+#h, #s, #m, .col {
+	display: inline-block;
+	font-size: 100px;
+}
+
+#message {
+	font-size: 50px;
+	color: red;
+	display: none;
+	font-weight: bold;
+	text-align: center;
 }

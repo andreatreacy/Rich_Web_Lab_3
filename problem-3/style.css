@@ -3,12 +3,24 @@ body {
   background: #cc66ff;
 }
 
-#content-area {
+#parent-notes {
   display: grid;
   grid-template-columns: repeat(auto-fill, 300px);
   padding: 25px;
   gap: 25px;
+  background-color: yellow;
 }
+
+
+#child-notes {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 300px);
+  padding: 25px;
+  gap: 25px;
+  background-color: #ff99ff;
+}
+
+
 
 #ColorPicker {
 	width: 200px;

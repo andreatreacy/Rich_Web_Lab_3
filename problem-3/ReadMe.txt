@@ -1,24 +1,38 @@
-Web page used for testing: https://www.redhat.com/en
-
-Navigate to the testing page before enabling the extension as links will be affected.
 
 
-The background image on body will change every 5 seconds.
+Add a parent note:
+Choose a colour on the colour picker.
+Click the New Note button.
+Click into the new note to add a message.
+Click outside the note to save the message.
 
-All images on the web page are replaced with explosion gifs. If the mouse hovers over an image it turns upside down.
+Add a child note:
+Double click on a parent note.
+A pop up appears asking if you want to create a child of the note. Click OK.
+The child note will appear in the child notes section. It will be the same colour as it's parent.
+Click into the new child note to add a message.
+Click outside the note to save the message.
 
-The content of the h1 elements are changed to "This Site Has Been Destroyed". If the mouse hovers over the h1 it will turn from red to pink.
+Edit a parent note:
+Choose a new colour for the note from the colour picker.
+Click into the note you want to edit.
+Type a new message.
+Click outside the note to save the message.
+If the parent note has any child notes they will change to the new colour.
 
-The content of the h2 elements are changed to "You Can't Read This". If the mouse hovers over the h2 it will change the font family of the h2.
+Edit a child note:
+Click into the child note you want to edit.
+Type a new message.
+Click outside the note to save the message.
+The colour of the child note is not changed by editing it as it must remain the same colour as the parent.
 
-The content of the p elements are changed to Lorem ipsum. If the p element is clicked the background colour of the p element is changed to a random colour.
+Delete a parent note:
+Double click on the parent note you want to delete.
+A pop up appears asking if you want to create a child of the note. Click Cancel.
+Another pop up appears asking if you want to delete the note. Click OK.
+The parent note is deleted and any child notes that it has is deleted too.
 
-The a elements will all redirect to a jurassic park gif.
-
-I created an iframe with an embedded youtube video and added it to the end of body.
-
-
-
-
-
-
+Delete a child note:
+Double click on the child note you want to delete.
+A pop up appears asking if you want to delete the note. Click OK.
+The child note is deleted. This does not affect the parent note.
